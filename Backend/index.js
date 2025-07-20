@@ -1,12 +1,7 @@
-const express = require('express');
+const express = require('express'); 
 const cors = require('cors');
 const app = express();
 const PORT = 3001;
-
-// Connect backend with front end in EC2
-const cors = require('cors');
-app.use(cors());
-// End
 
 app.use(cors());
 app.use(express.json());
